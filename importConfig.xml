@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<!-- 数据库信息 -->
+	<database-url>jdbc:mysql://10.201.20.228:3306</database-url>
+	<database-username>root</database-username>
+	<database-password>12345</database-password>
+	
+	<database-name>test</database-name>
+	<database-table>wf_mds_chn_book</database-table>
+	
+<!-- 集群信息 -->
+	<cluster-name>transportation</cluster-name>
+	<cluster-host>10.201.20.228</cluster-host>
+	<cluster-port>9300</cluster-port>
+<!-- 索引信息 -->	
+	<index-name>transportation</index-name>
+	<index-type>transportation</index-type>
+	
+<!-- 运行信息 -->
+	<batchId>id</batchId><!-- f_id -->
+	<identify>nid</identify>  <!-- 唯一标识 -->
+	<batch-size>100</batch-size>
+</config>

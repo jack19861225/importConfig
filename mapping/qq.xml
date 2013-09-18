@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<mapping column="id" filed="id"/>
+	<mapping column="ABSTRACT" filed="name"/>
+	<mapping column="TI" filed="AU"/>
+</config>
